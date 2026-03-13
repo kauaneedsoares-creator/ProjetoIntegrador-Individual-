@@ -1,0 +1,104 @@
+﻿namespace ProjetoIntegrador
+{
+    partial class FormSenha
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.txtEmail6 = new System.Windows.Forms.Label();
+            this.txtSenha6 = new System.Windows.Forms.Label();
+            this.txtEntre = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // txtEmail6
+            // 
+            this.txtEmail6.AutoSize = true;
+            this.txtEmail6.Location = new System.Drawing.Point(145, 82);
+            this.txtEmail6.Name = "txtEmail6";
+            this.txtEmail6.Size = new System.Drawing.Size(32, 13);
+            this.txtEmail6.TabIndex = 0;
+            this.txtEmail6.Text = "Email";
+            // 
+            // txtSenha6
+            // 
+            this.txtSenha6.AutoSize = true;
+            this.txtSenha6.Location = new System.Drawing.Point(145, 153);
+            this.txtSenha6.Name = "txtSenha6";
+            this.txtSenha6.Size = new System.Drawing.Size(38, 13);
+            this.txtSenha6.TabIndex = 1;
+            this.txtSenha6.Text = "Senha";
+            // 
+            // txtEntre
+            // 
+            this.txtEntre.Location = new System.Drawing.Point(157, 232);
+            this.txtEntre.Name = "txtEntre";
+            this.txtEntre.Size = new System.Drawing.Size(75, 23);
+            this.txtEntre.TabIndex = 2;
+            this.txtEntre.Text = "Entre";
+            this.txtEntre.UseVisualStyleBackColor = true;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(148, 117);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 3;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(148, 178);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.TabIndex = 4;
+            // 
+            // FormSenha
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(414, 355);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtEntre);
+            this.Controls.Add(this.txtSenha6);
+            this.Controls.Add(this.txtEmail6);
+            this.Name = "FormSenha";
+            this.Text = "FormSenha";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label txtEmail6;
+        private System.Windows.Forms.Label txtSenha6;
+        private System.Windows.Forms.Button txtEntre;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+    }
+}
