@@ -17,7 +17,13 @@ namespace ProjetoIntegrador
             InitializeComponent();
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+       
+        private void FormConsulta_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bntLimpar5_Click(object sender, EventArgs e)
         {
 
         }
