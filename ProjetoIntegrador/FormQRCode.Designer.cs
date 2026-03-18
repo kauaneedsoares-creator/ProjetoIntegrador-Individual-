@@ -157,12 +157,14 @@
             // 
             // btnLimpar3
             // 
+            this.btnLimpar3.BackColor = System.Drawing.Color.LightCoral;
+            this.btnLimpar3.FlatAppearance.BorderSize = 0;
             this.btnLimpar3.Location = new System.Drawing.Point(495, 442);
             this.btnLimpar3.Name = "btnLimpar3";
             this.btnLimpar3.Size = new System.Drawing.Size(75, 49);
             this.btnLimpar3.TabIndex = 46;
             this.btnLimpar3.Text = "Limpar";
-            this.btnLimpar3.UseVisualStyleBackColor = true;
+            this.btnLimpar3.UseVisualStyleBackColor = false;
             // 
             // btnDeletar3
             // 

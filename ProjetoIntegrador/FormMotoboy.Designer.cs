@@ -258,12 +258,15 @@
             // 
             // btnLimpar1
             // 
+            this.btnLimpar1.BackColor = System.Drawing.Color.LightCoral;
+            this.btnLimpar1.FlatAppearance.BorderSize = 0;
+            this.btnLimpar1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLimpar1.Location = new System.Drawing.Point(747, 449);
             this.btnLimpar1.Name = "btnLimpar1";
             this.btnLimpar1.Size = new System.Drawing.Size(75, 49);
             this.btnLimpar1.TabIndex = 25;
             this.btnLimpar1.Text = "Limpar";
-            this.btnLimpar1.UseVisualStyleBackColor = true;
+            this.btnLimpar1.UseVisualStyleBackColor = false;
             // 
             // btnPesquisa1
             // 

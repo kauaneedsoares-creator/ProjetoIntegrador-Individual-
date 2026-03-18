@@ -49,10 +49,10 @@
             // 
             // btnEditar4
             // 
-            this.btnEditar4.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.btnEditar4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btnEditar4.FlatAppearance.BorderSize = 0;
             this.btnEditar4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEditar4.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnEditar4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.btnEditar4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnEditar4.Location = new System.Drawing.Point(350, 398);
             this.btnEditar4.Name = "btnEditar4";
@@ -63,10 +63,10 @@
             // 
             // bntCadatro4
             // 
-            this.bntCadatro4.BackColor = System.Drawing.Color.MediumSpringGreen;
+            this.bntCadatro4.BackColor = System.Drawing.Color.Lime;
             this.bntCadatro4.FlatAppearance.BorderSize = 0;
             this.bntCadatro4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntCadatro4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.bntCadatro4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.bntCadatro4.Location = new System.Drawing.Point(34, 398);
             this.bntCadatro4.Name = "bntCadatro4";
             this.bntCadatro4.Size = new System.Drawing.Size(102, 61);
@@ -89,10 +89,10 @@
             // 
             // bntLLimpar4
             // 
-            this.bntLLimpar4.BackColor = System.Drawing.Color.Thistle;
+            this.bntLLimpar4.BackColor = System.Drawing.Color.LightCoral;
             this.bntLLimpar4.FlatAppearance.BorderSize = 0;
             this.bntLLimpar4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntLLimpar4.Location = new System.Drawing.Point(508, 398);
+            this.bntLLimpar4.Location = new System.Drawing.Point(493, 398);
             this.bntLLimpar4.Name = "bntLLimpar4";
             this.bntLLimpar4.Size = new System.Drawing.Size(100, 61);
             this.bntLLimpar4.TabIndex = 58;
@@ -115,42 +115,42 @@
             // listBox4
             // 
             this.listBox4.FormattingEnabled = true;
-            this.listBox4.Location = new System.Drawing.Point(366, 28);
+            this.listBox4.Location = new System.Drawing.Point(381, 54);
             this.listBox4.Name = "listBox4";
             this.listBox4.Size = new System.Drawing.Size(227, 316);
             this.listBox4.TabIndex = 56;
             // 
             // txtEmail4
             // 
-            this.txtEmail4.Location = new System.Drawing.Point(12, 278);
+            this.txtEmail4.Location = new System.Drawing.Point(12, 248);
             this.txtEmail4.Name = "txtEmail4";
             this.txtEmail4.Size = new System.Drawing.Size(100, 20);
             this.txtEmail4.TabIndex = 55;
             // 
             // txtTelefone4
             // 
-            this.txtTelefone4.Location = new System.Drawing.Point(12, 203);
+            this.txtTelefone4.Location = new System.Drawing.Point(12, 189);
             this.txtTelefone4.Name = "txtTelefone4";
             this.txtTelefone4.Size = new System.Drawing.Size(100, 20);
             this.txtTelefone4.TabIndex = 54;
             // 
             // txtCNPJ
             // 
-            this.txtCNPJ.Location = new System.Drawing.Point(12, 136);
+            this.txtCNPJ.Location = new System.Drawing.Point(12, 123);
             this.txtCNPJ.Name = "txtCNPJ";
             this.txtCNPJ.Size = new System.Drawing.Size(100, 20);
             this.txtCNPJ.TabIndex = 51;
             // 
             // txtEndereco
             // 
-            this.txtEndereco.Location = new System.Drawing.Point(12, 356);
+            this.txtEndereco.Location = new System.Drawing.Point(12, 330);
             this.txtEndereco.Name = "txtEndereco";
-            this.txtEndereco.Size = new System.Drawing.Size(323, 20);
+            this.txtEndereco.Size = new System.Drawing.Size(183, 20);
             this.txtEndereco.TabIndex = 50;
             // 
             // txtNome4
             // 
-            this.txtNome4.Location = new System.Drawing.Point(12, 44);
+            this.txtNome4.Location = new System.Drawing.Point(12, 71);
             this.txtNome4.Name = "txtNome4";
             this.txtNome4.Size = new System.Drawing.Size(100, 20);
             this.txtNome4.TabIndex = 49;
@@ -158,7 +158,8 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(9, 248);
+            this.label9.ForeColor = System.Drawing.Color.White;
+            this.label9.Location = new System.Drawing.Point(12, 232);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(32, 13);
             this.label9.TabIndex = 47;
@@ -167,7 +168,8 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(9, 331);
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(12, 314);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(53, 13);
             this.label7.TabIndex = 46;
@@ -176,7 +178,8 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(9, 187);
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(9, 173);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(49, 13);
             this.label4.TabIndex = 45;
@@ -185,7 +188,8 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(9, 101);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(12, 107);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(34, 13);
             this.label2.TabIndex = 43;
@@ -194,7 +198,8 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(9, 19);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(12, 54);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 42;
@@ -213,7 +218,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkOrchid;
+            this.BackColor = System.Drawing.Color.Navy;
             this.ClientSize = new System.Drawing.Size(620, 500);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.btnEditar4);
