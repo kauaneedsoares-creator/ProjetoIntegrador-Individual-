@@ -28,121 +28,165 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panelTela = new System.Windows.Forms.Panel();
-            this.btnEmpresa = new System.Windows.Forms.Button();
             this.btnInicio = new System.Windows.Forms.Button();
             this.btnConsulta = new System.Windows.Forms.Button();
-            this.bntQRCode7 = new System.Windows.Forms.Button();
-            this.btnContato7 = new System.Windows.Forms.Button();
-            this.bntMotoboy = new System.Windows.Forms.Button();
             this.btnCadastro7 = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
+            this.btnContato7 = new System.Windows.Forms.Button();
+            this.bntMotoboy = new System.Windows.Forms.Button();
+            this.bntQRCode7 = new System.Windows.Forms.Button();
+            this.btnEmpresa = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panelTela.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelTela
             // 
-            this.panelTela.Location = new System.Drawing.Point(230, 2);
+            this.panelTela.Controls.Add(this.pictureBox1);
+            this.panelTela.Location = new System.Drawing.Point(213, 2);
             this.panelTela.Name = "panelTela";
-            this.panelTela.Size = new System.Drawing.Size(645, 463);
+            this.panelTela.Size = new System.Drawing.Size(654, 448);
             this.panelTela.TabIndex = 0;
-            // 
-            // btnEmpresa
-            // 
-            this.btnEmpresa.Location = new System.Drawing.Point(12, 150);
-            this.btnEmpresa.Name = "btnEmpresa";
-            this.btnEmpresa.Size = new System.Drawing.Size(212, 29);
-            this.btnEmpresa.TabIndex = 5;
-            this.btnEmpresa.Text = "Empresa";
-            this.btnEmpresa.UseVisualStyleBackColor = true;
-            this.btnEmpresa.Click += new System.EventHandler(this.btnEmpresa_Click);
             // 
             // btnInicio
             // 
-            this.btnInicio.Location = new System.Drawing.Point(12, 330);
+            this.btnInicio.BackColor = System.Drawing.Color.Lime;
+            this.btnInicio.FlatAppearance.BorderSize = 0;
+            this.btnInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInicio.Location = new System.Drawing.Point(-5, 289);
             this.btnInicio.Name = "btnInicio";
-            this.btnInicio.Size = new System.Drawing.Size(212, 29);
+            this.btnInicio.Size = new System.Drawing.Size(220, 29);
             this.btnInicio.TabIndex = 3;
             this.btnInicio.Text = "INICIO";
-            this.btnInicio.UseVisualStyleBackColor = true;
+            this.btnInicio.UseVisualStyleBackColor = false;
             this.btnInicio.Click += new System.EventHandler(this.btnInicio_Click);
             // 
             // btnConsulta
             // 
-            this.btnConsulta.Location = new System.Drawing.Point(12, 232);
+            this.btnConsulta.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.btnConsulta.FlatAppearance.BorderSize = 0;
+            this.btnConsulta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConsulta.Location = new System.Drawing.Point(-5, 202);
             this.btnConsulta.Name = "btnConsulta";
-            this.btnConsulta.Size = new System.Drawing.Size(212, 29);
+            this.btnConsulta.Size = new System.Drawing.Size(220, 29);
             this.btnConsulta.TabIndex = 3;
             this.btnConsulta.Text = "Consulta";
-            this.btnConsulta.UseVisualStyleBackColor = true;
+            this.btnConsulta.UseVisualStyleBackColor = false;
             this.btnConsulta.Click += new System.EventHandler(this.btnConsulta_Click);
-            // 
-            // bntQRCode7
-            // 
-            this.bntQRCode7.Location = new System.Drawing.Point(12, 115);
-            this.bntQRCode7.Name = "bntQRCode7";
-            this.bntQRCode7.Size = new System.Drawing.Size(212, 29);
-            this.bntQRCode7.TabIndex = 4;
-            this.bntQRCode7.Text = "QR Code";
-            this.bntQRCode7.UseVisualStyleBackColor = true;
-            this.bntQRCode7.Click += new System.EventHandler(this.bntQRCode7_Click);
-            // 
-            // btnContato7
-            // 
-            this.btnContato7.Location = new System.Drawing.Point(12, 80);
-            this.btnContato7.Name = "btnContato7";
-            this.btnContato7.Size = new System.Drawing.Size(212, 29);
-            this.btnContato7.TabIndex = 3;
-            this.btnContato7.Text = "Contato Motoboy";
-            this.btnContato7.UseVisualStyleBackColor = true;
-            this.btnContato7.Click += new System.EventHandler(this.btnContato7_Click);
-            // 
-            // bntMotoboy
-            // 
-            this.bntMotoboy.Location = new System.Drawing.Point(12, 48);
-            this.bntMotoboy.Name = "bntMotoboy";
-            this.bntMotoboy.Size = new System.Drawing.Size(212, 29);
-            this.bntMotoboy.TabIndex = 2;
-            this.bntMotoboy.Text = "Motoboy";
-            this.bntMotoboy.UseVisualStyleBackColor = true;
-            this.bntMotoboy.Click += new System.EventHandler(this.bntMotoboy_Click);
             // 
             // btnCadastro7
             // 
-            this.btnCadastro7.Location = new System.Drawing.Point(12, 2);
+            this.btnCadastro7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnCadastro7.FlatAppearance.BorderSize = 0;
+            this.btnCadastro7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCadastro7.Location = new System.Drawing.Point(-5, 2);
             this.btnCadastro7.Name = "btnCadastro7";
-            this.btnCadastro7.Size = new System.Drawing.Size(212, 40);
+            this.btnCadastro7.Size = new System.Drawing.Size(232, 40);
             this.btnCadastro7.TabIndex = 1;
             this.btnCadastro7.Text = "Cadastro";
-            this.btnCadastro7.UseVisualStyleBackColor = true;
+            this.btnCadastro7.UseVisualStyleBackColor = false;
             this.btnCadastro7.Click += new System.EventHandler(this.btnCadastro7_Click);
             // 
             // btnSair
             // 
-            this.btnSair.Location = new System.Drawing.Point(12, 393);
+            this.btnSair.BackColor = System.Drawing.Color.Maroon;
+            this.btnSair.FlatAppearance.BorderSize = 0;
+            this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSair.ForeColor = System.Drawing.Color.White;
+            this.btnSair.Location = new System.Drawing.Point(-5, 378);
             this.btnSair.Name = "btnSair";
             this.btnSair.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnSair.Size = new System.Drawing.Size(212, 72);
+            this.btnSair.Size = new System.Drawing.Size(220, 72);
             this.btnSair.TabIndex = 6;
             this.btnSair.Text = "SAIR";
-            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.UseVisualStyleBackColor = false;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
+            // 
+            // btnContato7
+            // 
+            this.btnContato7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnContato7.FlatAppearance.BorderSize = 0;
+            this.btnContato7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnContato7.Location = new System.Drawing.Point(-5, 38);
+            this.btnContato7.Name = "btnContato7";
+            this.btnContato7.Size = new System.Drawing.Size(223, 29);
+            this.btnContato7.TabIndex = 3;
+            this.btnContato7.Text = "Contato Motoboy";
+            this.btnContato7.UseVisualStyleBackColor = false;
+            this.btnContato7.Click += new System.EventHandler(this.btnContato7_Click);
+            // 
+            // bntMotoboy
+            // 
+            this.bntMotoboy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.bntMotoboy.FlatAppearance.BorderSize = 0;
+            this.bntMotoboy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bntMotoboy.Location = new System.Drawing.Point(-7, 64);
+            this.bntMotoboy.Name = "bntMotoboy";
+            this.bntMotoboy.Size = new System.Drawing.Size(222, 29);
+            this.bntMotoboy.TabIndex = 2;
+            this.bntMotoboy.Text = "Motoboy";
+            this.bntMotoboy.UseVisualStyleBackColor = false;
+            this.bntMotoboy.Click += new System.EventHandler(this.bntMotoboy_Click);
+            // 
+            // bntQRCode7
+            // 
+            this.bntQRCode7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.bntQRCode7.FlatAppearance.BorderSize = 0;
+            this.bntQRCode7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bntQRCode7.Location = new System.Drawing.Point(-7, 89);
+            this.bntQRCode7.Name = "bntQRCode7";
+            this.bntQRCode7.Size = new System.Drawing.Size(225, 29);
+            this.bntQRCode7.TabIndex = 4;
+            this.bntQRCode7.Text = "QR Code";
+            this.bntQRCode7.UseVisualStyleBackColor = false;
+            this.bntQRCode7.Click += new System.EventHandler(this.bntQRCode7_Click);
+            // 
+            // btnEmpresa
+            // 
+            this.btnEmpresa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnEmpresa.FlatAppearance.BorderSize = 0;
+            this.btnEmpresa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEmpresa.Location = new System.Drawing.Point(-5, 113);
+            this.btnEmpresa.Name = "btnEmpresa";
+            this.btnEmpresa.Size = new System.Drawing.Size(220, 29);
+            this.btnEmpresa.TabIndex = 5;
+            this.btnEmpresa.Text = "Empresa";
+            this.btnEmpresa.UseVisualStyleBackColor = false;
+            this.btnEmpresa.Click += new System.EventHandler(this.btnEmpresa_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(77, 87);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(461, 282);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(889, 470);
-            this.Controls.Add(this.btnCadastro7);
-            this.Controls.Add(this.bntMotoboy);
-            this.Controls.Add(this.bntQRCode7);
+            this.BackColor = System.Drawing.Color.Navy;
+            this.ClientSize = new System.Drawing.Size(869, 451);
             this.Controls.Add(this.btnEmpresa);
-            this.Controls.Add(this.btnContato7);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.panelTela);
+            this.Controls.Add(this.bntQRCode7);
             this.Controls.Add(this.btnConsulta);
+            this.Controls.Add(this.bntMotoboy);
+            this.Controls.Add(this.btnContato7);
+            this.Controls.Add(this.btnCadastro7);
             this.Controls.Add(this.btnInicio);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Form1";
+            this.panelTela.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -152,12 +196,13 @@
         private System.Windows.Forms.Panel panelTela;
         private System.Windows.Forms.Button btnInicio;
         private System.Windows.Forms.Button btnConsulta;
-        private System.Windows.Forms.Button bntQRCode7;
+        private System.Windows.Forms.Button btnCadastro7;
+        private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.Button btnContato7;
         private System.Windows.Forms.Button bntMotoboy;
-        private System.Windows.Forms.Button btnCadastro7;
+        private System.Windows.Forms.Button bntQRCode7;
         private System.Windows.Forms.Button btnEmpresa;
-        private System.Windows.Forms.Button btnSair;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

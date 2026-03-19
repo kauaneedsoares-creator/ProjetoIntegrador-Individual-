@@ -16,5 +16,14 @@ namespace ProjetoIntegrador
         {
             InitializeComponent();
         }
+
+        private void txtEntre_Click(object sender, EventArgs e)
+        {
+            Form1 form2 = new Form1();
+            form2.Show();
+            this.Hide();
+
+       
+        }
     }
 }

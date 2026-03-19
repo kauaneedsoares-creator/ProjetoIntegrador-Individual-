@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace ProjetoIntegrador
 {
@@ -17,7 +18,11 @@ namespace ProjetoIntegrador
             InitializeComponent();
            
         }
-
+        public void Menu(Form form)
+        {
+            btnCadastro7.Visible = false;
+            btnCadastro7.Visible = true; 
+        }
         public void AbrirFormNoPanel(Form form)
         {
             form.TopLevel = false;
@@ -37,7 +42,7 @@ namespace ProjetoIntegrador
 
         private void btnCadastro7_Click(object sender, EventArgs e)
         {
-            AbrirFormNoPanel(new FormMotoboy());
+            Menu(new FormMotoboy());
             
         }
 
@@ -68,8 +73,11 @@ namespace ProjetoIntegrador
 
         private void btnInicio_Click(object sender, EventArgs e)
         {
+
             panelTela.Controls.Clear(); // limpa a tela
         }
+
+       
     }
     
 }

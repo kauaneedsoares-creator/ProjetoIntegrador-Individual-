@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSenha));
             this.txtEmail6 = new System.Windows.Forms.Label();
             this.txtSenha6 = new System.Windows.Forms.Label();
             this.txtEntre = new System.Windows.Forms.Button();
@@ -38,7 +39,8 @@
             // txtEmail6
             // 
             this.txtEmail6.AutoSize = true;
-            this.txtEmail6.Location = new System.Drawing.Point(145, 82);
+            this.txtEmail6.ForeColor = System.Drawing.Color.Cyan;
+            this.txtEmail6.Location = new System.Drawing.Point(127, 70);
             this.txtEmail6.Name = "txtEmail6";
             this.txtEmail6.Size = new System.Drawing.Size(32, 13);
             this.txtEmail6.TabIndex = 0;
@@ -47,7 +49,9 @@
             // txtSenha6
             // 
             this.txtSenha6.AutoSize = true;
-            this.txtSenha6.Location = new System.Drawing.Point(145, 153);
+            this.txtSenha6.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.txtSenha6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.txtSenha6.Location = new System.Drawing.Point(127, 141);
             this.txtSenha6.Name = "txtSenha6";
             this.txtSenha6.Size = new System.Drawing.Size(38, 13);
             this.txtSenha6.TabIndex = 1;
@@ -55,23 +59,27 @@
             // 
             // txtEntre
             // 
-            this.txtEntre.Location = new System.Drawing.Point(157, 232);
+            this.txtEntre.BackColor = System.Drawing.Color.Lime;
+            this.txtEntre.FlatAppearance.BorderSize = 0;
+            this.txtEntre.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.txtEntre.Location = new System.Drawing.Point(139, 220);
             this.txtEntre.Name = "txtEntre";
             this.txtEntre.Size = new System.Drawing.Size(75, 23);
             this.txtEntre.TabIndex = 2;
             this.txtEntre.Text = "Entre";
-            this.txtEntre.UseVisualStyleBackColor = true;
+            this.txtEntre.UseVisualStyleBackColor = false;
+            this.txtEntre.Click += new System.EventHandler(this.txtEntre_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(148, 117);
+            this.textBox1.Location = new System.Drawing.Point(130, 105);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 3;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(148, 178);
+            this.textBox2.Location = new System.Drawing.Point(130, 166);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 4;
@@ -80,12 +88,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.ClientSize = new System.Drawing.Size(414, 355);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.txtEntre);
             this.Controls.Add(this.txtSenha6);
             this.Controls.Add(this.txtEmail6);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormSenha";
             this.Text = "FormSenha";
             this.ResumeLayout(false);

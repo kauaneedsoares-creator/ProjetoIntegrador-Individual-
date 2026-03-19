@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormEmpresa));
             this.btnEditar4 = new System.Windows.Forms.Button();
             this.bntCadatro4 = new System.Windows.Forms.Button();
             this.ctnPesquisa = new System.Windows.Forms.Button();
@@ -44,7 +45,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnEditar4
@@ -54,7 +54,7 @@
             this.btnEditar4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEditar4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.btnEditar4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnEditar4.Location = new System.Drawing.Point(350, 398);
+            this.btnEditar4.Location = new System.Drawing.Point(356, 364);
             this.btnEditar4.Name = "btnEditar4";
             this.btnEditar4.Size = new System.Drawing.Size(102, 61);
             this.btnEditar4.TabIndex = 62;
@@ -67,7 +67,7 @@
             this.bntCadatro4.FlatAppearance.BorderSize = 0;
             this.bntCadatro4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bntCadatro4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.bntCadatro4.Location = new System.Drawing.Point(34, 398);
+            this.bntCadatro4.Location = new System.Drawing.Point(32, 364);
             this.bntCadatro4.Name = "bntCadatro4";
             this.bntCadatro4.Size = new System.Drawing.Size(102, 61);
             this.bntCadatro4.TabIndex = 60;
@@ -92,7 +92,7 @@
             this.bntLLimpar4.BackColor = System.Drawing.Color.LightCoral;
             this.bntLLimpar4.FlatAppearance.BorderSize = 0;
             this.bntLLimpar4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntLLimpar4.Location = new System.Drawing.Point(493, 398);
+            this.bntLLimpar4.Location = new System.Drawing.Point(500, 364);
             this.bntLLimpar4.Name = "bntLLimpar4";
             this.bntLLimpar4.Size = new System.Drawing.Size(100, 61);
             this.bntLLimpar4.TabIndex = 58;
@@ -105,7 +105,7 @@
             this.bntDeletar4.FlatAppearance.BorderSize = 0;
             this.bntDeletar4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bntDeletar4.ForeColor = System.Drawing.Color.Cyan;
-            this.bntDeletar4.Location = new System.Drawing.Point(187, 398);
+            this.bntDeletar4.Location = new System.Drawing.Point(196, 364);
             this.bntDeletar4.Name = "bntDeletar4";
             this.bntDeletar4.Size = new System.Drawing.Size(102, 61);
             this.bntDeletar4.TabIndex = 57;
@@ -115,7 +115,7 @@
             // listBox4
             // 
             this.listBox4.FormattingEnabled = true;
-            this.listBox4.Location = new System.Drawing.Point(381, 54);
+            this.listBox4.Location = new System.Drawing.Point(389, 28);
             this.listBox4.Name = "listBox4";
             this.listBox4.Size = new System.Drawing.Size(227, 316);
             this.listBox4.TabIndex = 56;
@@ -143,7 +143,7 @@
             // 
             // txtEndereco
             // 
-            this.txtEndereco.Location = new System.Drawing.Point(12, 330);
+            this.txtEndereco.Location = new System.Drawing.Point(12, 304);
             this.txtEndereco.Name = "txtEndereco";
             this.txtEndereco.Size = new System.Drawing.Size(183, 20);
             this.txtEndereco.TabIndex = 50;
@@ -169,7 +169,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(12, 314);
+            this.label7.Location = new System.Drawing.Point(9, 288);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(53, 13);
             this.label7.TabIndex = 46;
@@ -205,22 +205,12 @@
             this.label1.TabIndex = 42;
             this.label1.Text = "Nome";
             // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(464, 12);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(13, 13);
-            this.label11.TabIndex = 63;
-            this.label11.Text = "4";
-            // 
             // FormEmpresa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Navy;
-            this.ClientSize = new System.Drawing.Size(620, 500);
-            this.Controls.Add(this.label11);
+            this.ClientSize = new System.Drawing.Size(638, 437);
             this.Controls.Add(this.btnEditar4);
             this.Controls.Add(this.bntCadatro4);
             this.Controls.Add(this.ctnPesquisa);
@@ -237,6 +227,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormEmpresa";
             this.Text = "FormEmpresa";
             this.ResumeLayout(false);
@@ -262,6 +253,5 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label11;
     }
 }
