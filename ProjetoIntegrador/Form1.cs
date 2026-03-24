@@ -16,12 +16,25 @@ namespace ProjetoIntegrador
         public Form1()
         {
             InitializeComponent();
-           
+            //isso vai fazer que os botoes no inicio permaneça escondido ate clicar no botao de Cadastro
+            btnMotoboy.Visible = false;
+            btnContato7.Visible = false;
+            btnEmpresa.Visible = false;
+            bntQRCode7.Visible = false;
+
+
         }
         public void Menu(Form form)
         {
-            btnCadastro7.Visible = false;
-            btnCadastro7.Visible = true; 
+            //quando clica no botao de Cadastro vai aparecer as opções 
+            btnCadastro7.Visible = true;
+            btnMotoboy.Visible = true;
+            btnContato7.Visible = true;
+            btnEmpresa.Visible = true;
+            bntQRCode7.Visible = true;
+           
+
+
         }
         public void AbrirFormNoPanel(Form form)
         {
@@ -37,13 +50,18 @@ namespace ProjetoIntegrador
 
         private void btnSair_Click(object sender, EventArgs e)
         {
-            this.Close();
+            // Close();
+            Application.Exit();//vai garantia que fecha tudos
+
         }
 
         private void btnCadastro7_Click(object sender, EventArgs e)
         {
-            Menu(new FormMotoboy());
-            
+            Menu(new Form1());
+           
+            btnCadastro7.Visible = true;
+           
+
         }
 
         private void bntMotoboy_Click(object sender, EventArgs e)

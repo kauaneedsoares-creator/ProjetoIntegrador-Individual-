@@ -114,10 +114,12 @@
             // 
             // listBox4
             // 
+            this.listBox4.BackColor = System.Drawing.Color.Gray;
+            this.listBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listBox4.FormattingEnabled = true;
             this.listBox4.Location = new System.Drawing.Point(389, 28);
             this.listBox4.Name = "listBox4";
-            this.listBox4.Size = new System.Drawing.Size(227, 316);
+            this.listBox4.Size = new System.Drawing.Size(227, 312);
             this.listBox4.TabIndex = 56;
             // 
             // txtEmail4

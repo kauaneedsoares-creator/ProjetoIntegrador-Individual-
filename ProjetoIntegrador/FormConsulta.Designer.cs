@@ -74,7 +74,7 @@
             this.bntDeletar5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bntDeletar5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntDeletar5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.bntDeletar5.Location = new System.Drawing.Point(514, 352);
+            this.bntDeletar5.Location = new System.Drawing.Point(545, 352);
             this.bntDeletar5.Name = "bntDeletar5";
             this.bntDeletar5.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bntDeletar5.Size = new System.Drawing.Size(81, 45);
@@ -120,6 +120,10 @@
             // cboAcao
             // 
             this.cboAcao.FormattingEnabled = true;
+            this.cboAcao.Items.AddRange(new object[] {
+            "Login",
+            "Cadastro",
+            "QR Code"});
             this.cboAcao.Location = new System.Drawing.Point(349, 79);
             this.cboAcao.Name = "cboAcao";
             this.cboAcao.Size = new System.Drawing.Size(121, 21);
@@ -145,9 +149,9 @@
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.label2.Location = new System.Drawing.Point(15, 54);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 20);
+            this.label2.Size = new System.Drawing.Size(90, 20);
             this.label2.TabIndex = 30;
-            this.label2.Text = "Usuário";
+            this.label2.Text = "(ID, Nome,)";
             // 
             // label3
             // 

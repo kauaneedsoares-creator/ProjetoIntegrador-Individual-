@@ -54,8 +54,9 @@
             this.btnDeletar1 = new System.Windows.Forms.Button();
             this.btnLimpar1 = new System.Windows.Forms.Button();
             this.btnPesquisa1 = new System.Windows.Forms.Button();
-            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.cboTiposanguineos = new System.Windows.Forms.ComboBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // listBox1
@@ -112,7 +113,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(236, 57);
+            this.label5.Location = new System.Drawing.Point(199, 56);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(87, 13);
             this.label5.TabIndex = 5;
@@ -122,7 +123,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(236, 165);
+            this.label6.Location = new System.Drawing.Point(199, 164);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(39, 13);
             this.label6.TabIndex = 6;
@@ -142,7 +143,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(236, 107);
+            this.label8.Location = new System.Drawing.Point(199, 106);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(90, 13);
             this.label8.TabIndex = 8;
@@ -178,7 +179,7 @@
             // 
             // txtCondicaoMedica
             // 
-            this.txtCondicaoMedica.Location = new System.Drawing.Point(239, 181);
+            this.txtCondicaoMedica.Location = new System.Drawing.Point(202, 180);
             this.txtCondicaoMedica.Name = "txtCondicaoMedica";
             this.txtCondicaoMedica.Size = new System.Drawing.Size(100, 20);
             this.txtCondicaoMedica.TabIndex = 12;
@@ -193,7 +194,7 @@
             // 
             // txtAlergia
             // 
-            this.txtAlergia.Location = new System.Drawing.Point(239, 123);
+            this.txtAlergia.Location = new System.Drawing.Point(202, 122);
             this.txtAlergia.Name = "txtAlergia";
             this.txtAlergia.Size = new System.Drawing.Size(100, 20);
             this.txtAlergia.TabIndex = 14;
@@ -214,7 +215,7 @@
             // 
             // txtSenha1
             // 
-            this.txtSenha1.Location = new System.Drawing.Point(143, 245);
+            this.txtSenha1.Location = new System.Drawing.Point(136, 245);
             this.txtSenha1.Name = "txtSenha1";
             this.txtSenha1.Size = new System.Drawing.Size(100, 20);
             this.txtSenha1.TabIndex = 18;
@@ -283,16 +284,16 @@
             // 
             // btnPesquisa1
             // 
+            this.btnPesquisa1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnPesquisa1.FlatAppearance.BorderSize = 0;
+            this.btnPesquisa1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPesquisa1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnPesquisa1.Location = new System.Drawing.Point(136, 7);
             this.btnPesquisa1.Name = "btnPesquisa1";
             this.btnPesquisa1.Size = new System.Drawing.Size(137, 23);
             this.btnPesquisa1.TabIndex = 26;
             this.btnPesquisa1.Text = "Pesquisa";
-            this.btnPesquisa1.UseVisualStyleBackColor = true;
-            // 
-            // openFileDialog1
-            // 
-            this.openFileDialog1.FileName = "openFileDialog1";
+            this.btnPesquisa1.UseVisualStyleBackColor = false;
             // 
             // cboTiposanguineos
             // 
@@ -306,10 +307,27 @@
             "AB -",
             "O +",
             "O -"});
-            this.cboTiposanguineos.Location = new System.Drawing.Point(239, 73);
+            this.cboTiposanguineos.Location = new System.Drawing.Point(202, 72);
             this.cboTiposanguineos.Name = "cboTiposanguineos";
             this.cboTiposanguineos.Size = new System.Drawing.Size(100, 21);
             this.cboTiposanguineos.TabIndex = 27;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(369, 25);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(40, 20);
+            this.textBox1.TabIndex = 28;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.ForeColor = System.Drawing.Color.White;
+            this.label11.Location = new System.Drawing.Point(355, 7);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(65, 13);
+            this.label11.TabIndex = 29;
+            this.label11.Text = "ID_Empresa";
             // 
             // FormMotoboy
             // 
@@ -317,6 +335,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Navy;
             this.ClientSize = new System.Drawing.Size(638, 437);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.cboTiposanguineos);
             this.Controls.Add(this.btnPesquisa1);
             this.Controls.Add(this.btnLimpar1);
@@ -378,7 +398,8 @@
         private System.Windows.Forms.Button btnDeletar1;
         private System.Windows.Forms.Button btnLimpar1;
         private System.Windows.Forms.Button btnPesquisa1;
-        private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.ComboBox cboTiposanguineos;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label11;
     }
 }

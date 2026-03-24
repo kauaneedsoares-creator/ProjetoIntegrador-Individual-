@@ -166,12 +166,15 @@
             // 
             // btnPesquisa2
             // 
+            this.btnPesquisa2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnPesquisa2.FlatAppearance.BorderSize = 0;
+            this.btnPesquisa2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPesquisa2.Location = new System.Drawing.Point(182, 5);
             this.btnPesquisa2.Name = "btnPesquisa2";
             this.btnPesquisa2.Size = new System.Drawing.Size(182, 23);
             this.btnPesquisa2.TabIndex = 38;
             this.btnPesquisa2.Text = "Pesquisa";
-            this.btnPesquisa2.UseVisualStyleBackColor = true;
+            this.btnPesquisa2.UseVisualStyleBackColor = false;
             // 
             // btnLimpar2
             // 

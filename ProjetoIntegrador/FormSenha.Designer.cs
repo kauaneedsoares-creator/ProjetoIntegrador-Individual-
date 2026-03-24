@@ -97,7 +97,7 @@
             this.Controls.Add(this.txtEmail6);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormSenha";
-            this.Text = "FormSenha";
+            this.Text = "Email e Senha";
             this.ResumeLayout(false);
             this.PerformLayout();
 
