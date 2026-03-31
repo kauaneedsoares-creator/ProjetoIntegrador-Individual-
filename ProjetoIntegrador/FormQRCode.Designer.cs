@@ -43,6 +43,7 @@
             this.txtContato = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.cboStatus = new System.Windows.Forms.ComboBox();
+            this.btnSalvar3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button6
@@ -185,12 +186,25 @@
             this.cboStatus.Size = new System.Drawing.Size(121, 21);
             this.cboStatus.TabIndex = 50;
             // 
+            // btnSalvar3
+            // 
+            this.btnSalvar3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnSalvar3.FlatAppearance.BorderSize = 0;
+            this.btnSalvar3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalvar3.Location = new System.Drawing.Point(271, 343);
+            this.btnSalvar3.Name = "btnSalvar3";
+            this.btnSalvar3.Size = new System.Drawing.Size(81, 45);
+            this.btnSalvar3.TabIndex = 51;
+            this.btnSalvar3.Text = "Salvar";
+            this.btnSalvar3.UseVisualStyleBackColor = false;
+            // 
             // FormQRCode
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Navy;
             this.ClientSize = new System.Drawing.Size(638, 409);
+            this.Controls.Add(this.btnSalvar3);
             this.Controls.Add(this.cboStatus);
             this.Controls.Add(this.bntEditar3);
             this.Controls.Add(this.bntCadastro3);
@@ -228,5 +242,6 @@
         private System.Windows.Forms.TextBox txtContato;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox cboStatus;
+        private System.Windows.Forms.Button btnSalvar3;
     }
 }

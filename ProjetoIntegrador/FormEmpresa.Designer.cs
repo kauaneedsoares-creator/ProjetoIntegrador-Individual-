@@ -45,6 +45,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnSalvar4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnEditar4
@@ -54,7 +55,7 @@
             this.btnEditar4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEditar4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.btnEditar4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnEditar4.Location = new System.Drawing.Point(356, 364);
+            this.btnEditar4.Location = new System.Drawing.Point(370, 364);
             this.btnEditar4.Name = "btnEditar4";
             this.btnEditar4.Size = new System.Drawing.Size(102, 61);
             this.btnEditar4.TabIndex = 62;
@@ -105,9 +106,9 @@
             this.bntDeletar4.FlatAppearance.BorderSize = 0;
             this.bntDeletar4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bntDeletar4.ForeColor = System.Drawing.Color.Cyan;
-            this.bntDeletar4.Location = new System.Drawing.Point(196, 364);
+            this.bntDeletar4.Location = new System.Drawing.Point(160, 364);
             this.bntDeletar4.Name = "bntDeletar4";
-            this.bntDeletar4.Size = new System.Drawing.Size(102, 61);
+            this.bntDeletar4.Size = new System.Drawing.Size(90, 61);
             this.bntDeletar4.TabIndex = 57;
             this.bntDeletar4.Text = "Deletar";
             this.bntDeletar4.UseVisualStyleBackColor = false;
@@ -207,12 +208,25 @@
             this.label1.TabIndex = 42;
             this.label1.Text = "Nome";
             // 
+            // btnSalvar4
+            // 
+            this.btnSalvar4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnSalvar4.FlatAppearance.BorderSize = 0;
+            this.btnSalvar4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalvar4.Location = new System.Drawing.Point(267, 364);
+            this.btnSalvar4.Name = "btnSalvar4";
+            this.btnSalvar4.Size = new System.Drawing.Size(81, 61);
+            this.btnSalvar4.TabIndex = 63;
+            this.btnSalvar4.Text = "Salvar";
+            this.btnSalvar4.UseVisualStyleBackColor = false;
+            // 
             // FormEmpresa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Navy;
             this.ClientSize = new System.Drawing.Size(638, 437);
+            this.Controls.Add(this.btnSalvar4);
             this.Controls.Add(this.btnEditar4);
             this.Controls.Add(this.bntCadatro4);
             this.Controls.Add(this.ctnPesquisa);
@@ -255,5 +269,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnSalvar4;
     }
 }

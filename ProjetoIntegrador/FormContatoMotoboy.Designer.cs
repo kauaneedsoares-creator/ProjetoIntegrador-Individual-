@@ -50,6 +50,7 @@
             this.btnCadastro2 = new System.Windows.Forms.Button();
             this.txtIDMotoboy = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
+            this.btnSalvar2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtEmail2
@@ -181,7 +182,7 @@
             this.btnLimpar2.BackColor = System.Drawing.Color.LightCoral;
             this.btnLimpar2.FlatAppearance.BorderSize = 0;
             this.btnLimpar2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLimpar2.Location = new System.Drawing.Point(399, 362);
+            this.btnLimpar2.Location = new System.Drawing.Point(411, 362);
             this.btnLimpar2.Name = "btnLimpar2";
             this.btnLimpar2.Size = new System.Drawing.Size(81, 45);
             this.btnLimpar2.TabIndex = 37;
@@ -217,7 +218,7 @@
             this.btnEditar.FlatAppearance.BorderSize = 0;
             this.btnEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEditar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.btnEditar.Location = new System.Drawing.Point(200, 362);
+            this.btnEditar.Location = new System.Drawing.Point(167, 362);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(81, 45);
             this.btnEditar.TabIndex = 41;
@@ -252,12 +253,25 @@
             this.label11.Size = new System.Drawing.Size(0, 13);
             this.label11.TabIndex = 42;
             // 
+            // btnSalvar2
+            // 
+            this.btnSalvar2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnSalvar2.FlatAppearance.BorderSize = 0;
+            this.btnSalvar2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalvar2.Location = new System.Drawing.Point(283, 362);
+            this.btnSalvar2.Name = "btnSalvar2";
+            this.btnSalvar2.Size = new System.Drawing.Size(81, 45);
+            this.btnSalvar2.TabIndex = 43;
+            this.btnSalvar2.Text = "Salvar";
+            this.btnSalvar2.UseVisualStyleBackColor = false;
+            // 
             // FormContatoMotoboy
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Navy;
             this.ClientSize = new System.Drawing.Size(638, 437);
+            this.Controls.Add(this.btnSalvar2);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.btnCadastro2);
@@ -310,5 +324,6 @@
         private System.Windows.Forms.Button btnCadastro2;
         private System.Windows.Forms.TextBox txtIDMotoboy;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Button btnSalvar2;
     }
 }

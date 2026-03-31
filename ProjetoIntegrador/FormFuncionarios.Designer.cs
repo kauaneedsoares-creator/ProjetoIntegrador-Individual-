@@ -45,6 +45,7 @@
             this.rbGerente = new System.Windows.Forms.RadioButton();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnSalvar8 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnEditar8
@@ -54,9 +55,9 @@
             this.btnEditar8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEditar8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.btnEditar8.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnEditar8.Location = new System.Drawing.Point(340, 336);
+            this.btnEditar8.Location = new System.Drawing.Point(279, 336);
             this.btnEditar8.Name = "btnEditar8";
-            this.btnEditar8.Size = new System.Drawing.Size(102, 61);
+            this.btnEditar8.Size = new System.Drawing.Size(85, 45);
             this.btnEditar8.TabIndex = 66;
             this.btnEditar8.Text = "Editar";
             this.btnEditar8.UseVisualStyleBackColor = false;
@@ -69,7 +70,7 @@
             this.bntCadatro8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.bntCadatro8.Location = new System.Drawing.Point(22, 336);
             this.bntCadatro8.Name = "bntCadatro8";
-            this.bntCadatro8.Size = new System.Drawing.Size(102, 61);
+            this.bntCadatro8.Size = new System.Drawing.Size(102, 45);
             this.bntCadatro8.TabIndex = 65;
             this.bntCadatro8.Text = "Cadastro";
             this.bntCadatro8.UseVisualStyleBackColor = false;
@@ -81,7 +82,7 @@
             this.bntLLimpar8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bntLLimpar8.Location = new System.Drawing.Point(526, 336);
             this.bntLLimpar8.Name = "bntLLimpar8";
-            this.bntLLimpar8.Size = new System.Drawing.Size(100, 61);
+            this.bntLLimpar8.Size = new System.Drawing.Size(83, 45);
             this.bntLLimpar8.TabIndex = 64;
             this.bntLLimpar8.Text = "Limpar";
             this.bntLLimpar8.UseVisualStyleBackColor = false;
@@ -92,9 +93,9 @@
             this.bntDeletar8.FlatAppearance.BorderSize = 0;
             this.bntDeletar8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bntDeletar8.ForeColor = System.Drawing.Color.Cyan;
-            this.bntDeletar8.Location = new System.Drawing.Point(179, 336);
+            this.bntDeletar8.Location = new System.Drawing.Point(145, 336);
             this.bntDeletar8.Name = "bntDeletar8";
-            this.bntDeletar8.Size = new System.Drawing.Size(102, 61);
+            this.bntDeletar8.Size = new System.Drawing.Size(96, 45);
             this.bntDeletar8.TabIndex = 63;
             this.bntDeletar8.Text = "Deletar";
             this.bntDeletar8.UseVisualStyleBackColor = false;
@@ -214,12 +215,25 @@
             this.label2.TabIndex = 78;
             this.label2.Text = "CPF";
             // 
+            // btnSalvar8
+            // 
+            this.btnSalvar8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnSalvar8.FlatAppearance.BorderSize = 0;
+            this.btnSalvar8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalvar8.Location = new System.Drawing.Point(417, 336);
+            this.btnSalvar8.Name = "btnSalvar8";
+            this.btnSalvar8.Size = new System.Drawing.Size(81, 45);
+            this.btnSalvar8.TabIndex = 79;
+            this.btnSalvar8.Text = "Salvar";
+            this.btnSalvar8.UseVisualStyleBackColor = false;
+            // 
             // FormFuncionarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Navy;
             this.ClientSize = new System.Drawing.Size(637, 409);
+            this.Controls.Add(this.btnSalvar8);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.rbGerente);
@@ -262,5 +276,6 @@
         private System.Windows.Forms.RadioButton rbGerente;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnSalvar8;
     }
 }
