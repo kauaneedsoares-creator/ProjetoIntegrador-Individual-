@@ -39,6 +39,7 @@
             this.btnMotoboy = new System.Windows.Forms.Button();
             this.bntQRCode7 = new System.Windows.Forms.Button();
             this.btnEmpresa = new System.Windows.Forms.Button();
+            this.btnFuncionarios = new System.Windows.Forms.Button();
             this.panelTela.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -46,9 +47,9 @@
             // panelTela
             // 
             this.panelTela.Controls.Add(this.pictureBox1);
-            this.panelTela.Location = new System.Drawing.Point(213, 2);
+            this.panelTela.Location = new System.Drawing.Point(214, 2);
             this.panelTela.Name = "panelTela";
-            this.panelTela.Size = new System.Drawing.Size(654, 448);
+            this.panelTela.Size = new System.Drawing.Size(653, 448);
             this.panelTela.TabIndex = 0;
             // 
             // pictureBox1
@@ -66,7 +67,7 @@
             this.btnInicio.BackColor = System.Drawing.Color.Lime;
             this.btnInicio.FlatAppearance.BorderSize = 0;
             this.btnInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInicio.Location = new System.Drawing.Point(-5, 289);
+            this.btnInicio.Location = new System.Drawing.Point(-5, 245);
             this.btnInicio.Name = "btnInicio";
             this.btnInicio.Size = new System.Drawing.Size(220, 29);
             this.btnInicio.TabIndex = 3;
@@ -79,7 +80,7 @@
             this.btnConsulta.BackColor = System.Drawing.Color.LightSkyBlue;
             this.btnConsulta.FlatAppearance.BorderSize = 0;
             this.btnConsulta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConsulta.Location = new System.Drawing.Point(-5, 202);
+            this.btnConsulta.Location = new System.Drawing.Point(-5, 191);
             this.btnConsulta.Name = "btnConsulta";
             this.btnConsulta.Size = new System.Drawing.Size(220, 29);
             this.btnConsulta.TabIndex = 3;
@@ -167,12 +168,26 @@
             this.btnEmpresa.UseVisualStyleBackColor = false;
             this.btnEmpresa.Click += new System.EventHandler(this.btnEmpresa_Click);
             // 
+            // btnFuncionarios
+            // 
+            this.btnFuncionarios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnFuncionarios.FlatAppearance.BorderSize = 0;
+            this.btnFuncionarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFuncionarios.Location = new System.Drawing.Point(-3, 311);
+            this.btnFuncionarios.Name = "btnFuncionarios";
+            this.btnFuncionarios.Size = new System.Drawing.Size(222, 29);
+            this.btnFuncionarios.TabIndex = 7;
+            this.btnFuncionarios.Text = "Funcionario";
+            this.btnFuncionarios.UseVisualStyleBackColor = false;
+            this.btnFuncionarios.Click += new System.EventHandler(this.btnFuncionarios_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Navy;
             this.ClientSize = new System.Drawing.Size(869, 451);
+            this.Controls.Add(this.btnFuncionarios);
             this.Controls.Add(this.panelTela);
             this.Controls.Add(this.btnEmpresa);
             this.Controls.Add(this.btnSair);
@@ -203,6 +218,7 @@
         private System.Windows.Forms.Button bntQRCode7;
         private System.Windows.Forms.Button btnEmpresa;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnFuncionarios;
     }
 }
 

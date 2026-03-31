@@ -95,7 +95,10 @@ namespace ProjetoIntegrador
             panelTela.Controls.Clear(); // limpa a tela
         }
 
-       
+        private void btnFuncionarios_Click(object sender, EventArgs e)
+        {
+            AbrirFormNoPanel(new FormFuncionarios());
+        }
     }
     
 }

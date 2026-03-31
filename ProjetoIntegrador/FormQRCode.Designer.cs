@@ -207,7 +207,7 @@
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormQRCode";
-            this.Text = "FormQRCode";
+            this.Text = "QR Code";
             this.ResumeLayout(false);
             this.PerformLayout();
 

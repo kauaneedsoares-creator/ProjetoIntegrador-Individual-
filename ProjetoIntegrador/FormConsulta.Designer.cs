@@ -84,7 +84,7 @@
             // 
             // listBox5
             // 
-            this.listBox5.BackColor = System.Drawing.Color.Azure;
+            this.listBox5.BackColor = System.Drawing.Color.Gray;
             this.listBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listBox5.ForeColor = System.Drawing.SystemColors.MenuText;
             this.listBox5.FormattingEnabled = true;
@@ -110,9 +110,9 @@
             this.bntPesquisar5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bntPesquisar5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntPesquisar5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.bntPesquisar5.Location = new System.Drawing.Point(520, 12);
+            this.bntPesquisar5.Location = new System.Drawing.Point(381, 12);
             this.bntPesquisar5.Name = "bntPesquisar5";
-            this.bntPesquisar5.Size = new System.Drawing.Size(75, 23);
+            this.bntPesquisar5.Size = new System.Drawing.Size(245, 23);
             this.bntPesquisar5.TabIndex = 5;
             this.bntPesquisar5.Text = "Pesquisar";
             this.bntPesquisar5.UseVisualStyleBackColor = false;
@@ -123,7 +123,11 @@
             this.cboAcao.Items.AddRange(new object[] {
             "Login",
             "Cadastro",
-            "QR Code"});
+            "QR Code",
+            "Empresa",
+            "Contato Motoboy",
+            "Motoboy",
+            "Funcionarios"});
             this.cboAcao.Location = new System.Drawing.Point(349, 79);
             this.cboAcao.Name = "cboAcao";
             this.cboAcao.Size = new System.Drawing.Size(121, 21);
@@ -181,7 +185,7 @@
             this.Controls.Add(this.txtUsuario);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormConsulta";
-            this.Text = "FormConsulta";
+            this.Text = "Consulta";
             this.ResumeLayout(false);
             this.PerformLayout();
 

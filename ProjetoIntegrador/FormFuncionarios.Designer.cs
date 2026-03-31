@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormFuncionarios));
             this.btnEditar8 = new System.Windows.Forms.Button();
             this.bntCadatro8 = new System.Windows.Forms.Button();
             this.bntLLimpar8 = new System.Windows.Forms.Button();
@@ -41,6 +42,9 @@
             this.rbFuncionario = new System.Windows.Forms.RadioButton();
             this.btnNomeFuncionario = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.rbGerente = new System.Windows.Forms.RadioButton();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnEditar8
@@ -50,7 +54,7 @@
             this.btnEditar8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEditar8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.btnEditar8.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnEditar8.Location = new System.Drawing.Point(306, 368);
+            this.btnEditar8.Location = new System.Drawing.Point(340, 336);
             this.btnEditar8.Name = "btnEditar8";
             this.btnEditar8.Size = new System.Drawing.Size(102, 61);
             this.btnEditar8.TabIndex = 66;
@@ -63,7 +67,7 @@
             this.bntCadatro8.FlatAppearance.BorderSize = 0;
             this.bntCadatro8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bntCadatro8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.bntCadatro8.Location = new System.Drawing.Point(22, 368);
+            this.bntCadatro8.Location = new System.Drawing.Point(22, 336);
             this.bntCadatro8.Name = "bntCadatro8";
             this.bntCadatro8.Size = new System.Drawing.Size(102, 61);
             this.bntCadatro8.TabIndex = 65;
@@ -75,7 +79,7 @@
             this.bntLLimpar8.BackColor = System.Drawing.Color.LightCoral;
             this.bntLLimpar8.FlatAppearance.BorderSize = 0;
             this.bntLLimpar8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bntLLimpar8.Location = new System.Drawing.Point(437, 368);
+            this.bntLLimpar8.Location = new System.Drawing.Point(526, 336);
             this.bntLLimpar8.Name = "bntLLimpar8";
             this.bntLLimpar8.Size = new System.Drawing.Size(100, 61);
             this.bntLLimpar8.TabIndex = 64;
@@ -88,7 +92,7 @@
             this.bntDeletar8.FlatAppearance.BorderSize = 0;
             this.bntDeletar8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bntDeletar8.ForeColor = System.Drawing.Color.Cyan;
-            this.bntDeletar8.Location = new System.Drawing.Point(165, 368);
+            this.bntDeletar8.Location = new System.Drawing.Point(179, 336);
             this.bntDeletar8.Name = "bntDeletar8";
             this.bntDeletar8.Size = new System.Drawing.Size(102, 61);
             this.bntDeletar8.TabIndex = 63;
@@ -100,21 +104,21 @@
             this.listBox8.BackColor = System.Drawing.Color.Gray;
             this.listBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listBox8.FormattingEnabled = true;
-            this.listBox8.Location = new System.Drawing.Point(306, 12);
+            this.listBox8.Location = new System.Drawing.Point(382, 12);
             this.listBox8.Name = "listBox8";
-            this.listBox8.Size = new System.Drawing.Size(227, 312);
+            this.listBox8.Size = new System.Drawing.Size(227, 247);
             this.listBox8.TabIndex = 67;
             // 
             // btnSenha2
             // 
-            this.btnSenha2.Location = new System.Drawing.Point(22, 245);
+            this.btnSenha2.Location = new System.Drawing.Point(24, 259);
             this.btnSenha2.Name = "btnSenha2";
             this.btnSenha2.Size = new System.Drawing.Size(100, 20);
             this.btnSenha2.TabIndex = 71;
             // 
             // btnEmail2
             // 
-            this.btnEmail2.Location = new System.Drawing.Point(22, 184);
+            this.btnEmail2.Location = new System.Drawing.Point(24, 198);
             this.btnEmail2.Name = "btnEmail2";
             this.btnEmail2.Size = new System.Drawing.Size(100, 20);
             this.btnEmail2.TabIndex = 70;
@@ -124,7 +128,7 @@
             this.txtSenha6.AutoSize = true;
             this.txtSenha6.BackColor = System.Drawing.Color.Navy;
             this.txtSenha6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.txtSenha6.Location = new System.Drawing.Point(25, 229);
+            this.txtSenha6.Location = new System.Drawing.Point(27, 243);
             this.txtSenha6.Name = "txtSenha6";
             this.txtSenha6.Size = new System.Drawing.Size(38, 13);
             this.txtSenha6.TabIndex = 69;
@@ -134,7 +138,7 @@
             // 
             this.txtEmail6.AutoSize = true;
             this.txtEmail6.ForeColor = System.Drawing.Color.Cyan;
-            this.txtEmail6.Location = new System.Drawing.Point(25, 168);
+            this.txtEmail6.Location = new System.Drawing.Point(27, 182);
             this.txtEmail6.Name = "txtEmail6";
             this.txtEmail6.Size = new System.Drawing.Size(32, 13);
             this.txtEmail6.TabIndex = 68;
@@ -144,7 +148,7 @@
             // 
             this.rdAdministrator.AutoSize = true;
             this.rdAdministrator.ForeColor = System.Drawing.Color.White;
-            this.rdAdministrator.Location = new System.Drawing.Point(22, 35);
+            this.rdAdministrator.Location = new System.Drawing.Point(279, 17);
             this.rdAdministrator.Name = "rdAdministrator";
             this.rdAdministrator.Size = new System.Drawing.Size(85, 17);
             this.rdAdministrator.TabIndex = 72;
@@ -156,7 +160,7 @@
             // 
             this.rbFuncionario.AutoSize = true;
             this.rbFuncionario.ForeColor = System.Drawing.Color.White;
-            this.rbFuncionario.Location = new System.Drawing.Point(145, 35);
+            this.rbFuncionario.Location = new System.Drawing.Point(24, 40);
             this.rbFuncionario.Name = "rbFuncionario";
             this.rbFuncionario.Size = new System.Drawing.Size(80, 17);
             this.rbFuncionario.TabIndex = 73;
@@ -166,7 +170,7 @@
             // 
             // btnNomeFuncionario
             // 
-            this.btnNomeFuncionario.Location = new System.Drawing.Point(22, 123);
+            this.btnNomeFuncionario.Location = new System.Drawing.Point(24, 105);
             this.btnNomeFuncionario.Name = "btnNomeFuncionario";
             this.btnNomeFuncionario.Size = new System.Drawing.Size(100, 20);
             this.btnNomeFuncionario.TabIndex = 75;
@@ -175,18 +179,50 @@
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.Cyan;
-            this.label1.Location = new System.Drawing.Point(22, 107);
+            this.label1.Location = new System.Drawing.Point(24, 89);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 74;
             this.label1.Text = "Nome";
+            // 
+            // rbGerente
+            // 
+            this.rbGerente.AutoSize = true;
+            this.rbGerente.ForeColor = System.Drawing.Color.White;
+            this.rbGerente.Location = new System.Drawing.Point(27, 17);
+            this.rbGerente.Name = "rbGerente";
+            this.rbGerente.Size = new System.Drawing.Size(63, 17);
+            this.rbGerente.TabIndex = 76;
+            this.rbGerente.TabStop = true;
+            this.rbGerente.Text = "Gerente";
+            this.rbGerente.UseVisualStyleBackColor = true;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(22, 148);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 77;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.Cyan;
+            this.label2.Location = new System.Drawing.Point(24, 132);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(27, 13);
+            this.label2.TabIndex = 78;
+            this.label2.Text = "CPF";
             // 
             // FormFuncionarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Navy;
-            this.ClientSize = new System.Drawing.Size(559, 450);
+            this.ClientSize = new System.Drawing.Size(637, 409);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.rbGerente);
             this.Controls.Add(this.btnNomeFuncionario);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.rbFuncionario);
@@ -200,8 +236,9 @@
             this.Controls.Add(this.bntCadatro8);
             this.Controls.Add(this.bntLLimpar8);
             this.Controls.Add(this.bntDeletar8);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormFuncionarios";
-            this.Text = "FormFuncionarios";
+            this.Text = "Funcionarios";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -222,5 +259,8 @@
         private System.Windows.Forms.RadioButton rbFuncionario;
         private System.Windows.Forms.TextBox btnNomeFuncionario;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.RadioButton rbGerente;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label2;
     }
 }

@@ -245,6 +245,7 @@
             this.btnCadastro1.TabIndex = 21;
             this.btnCadastro1.Text = "Cadastro";
             this.btnCadastro1.UseVisualStyleBackColor = false;
+            this.btnCadastro1.Click += new System.EventHandler(this.btnCadastro1_Click);
             // 
             // btnEditar1
             // 

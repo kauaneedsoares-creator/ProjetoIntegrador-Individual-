@@ -6,8 +6,10 @@ using System.Windows.Forms;
 
 namespace ProjetoIntegrador
 {
-    internal static class Program
+    internal static class Program 
     {
+        
+
         /// <summary>
         /// Ponto de entrada principal para o aplicativo.
         /// </summary>
