@@ -17,6 +17,20 @@ namespace ProjetoIntegrador
             InitializeComponent();
         }
 
-      
+        /// <summary>
+        /// Serve para poder mexer nos dados(EX:agora você pode alterar)
+        /// </summary>
+        private void btnEditar4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        /// <summary>
+        /// Serve para guardar o que mudou(EX:pronto, salvou)
+        /// </summary>
+        private void btnSalvar4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

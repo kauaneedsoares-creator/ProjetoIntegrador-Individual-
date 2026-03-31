@@ -36,16 +36,17 @@
             this.listBox8 = new System.Windows.Forms.ListBox();
             this.btnSenha2 = new System.Windows.Forms.TextBox();
             this.btnEmail2 = new System.Windows.Forms.TextBox();
-            this.txtSenha6 = new System.Windows.Forms.Label();
-            this.txtEmail6 = new System.Windows.Forms.Label();
+            this.lblSenhauncionarios = new System.Windows.Forms.Label();
+            this.lblEmailFuncionarios = new System.Windows.Forms.Label();
             this.rdAdministrator = new System.Windows.Forms.RadioButton();
             this.rbFuncionario = new System.Windows.Forms.RadioButton();
             this.btnNomeFuncionario = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblNomeFuncionarios = new System.Windows.Forms.Label();
             this.rbGerente = new System.Windows.Forms.RadioButton();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblCPFFuncionarios = new System.Windows.Forms.Label();
             this.btnSalvar8 = new System.Windows.Forms.Button();
+            this.btnPesquisa1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnEditar8
@@ -61,6 +62,7 @@
             this.btnEditar8.TabIndex = 66;
             this.btnEditar8.Text = "Editar";
             this.btnEditar8.UseVisualStyleBackColor = false;
+            this.btnEditar8.Click += new System.EventHandler(this.btnEditar8_Click);
             // 
             // bntCadatro8
             // 
@@ -124,32 +126,32 @@
             this.btnEmail2.Size = new System.Drawing.Size(100, 20);
             this.btnEmail2.TabIndex = 70;
             // 
-            // txtSenha6
+            // lblSenhauncionarios
             // 
-            this.txtSenha6.AutoSize = true;
-            this.txtSenha6.BackColor = System.Drawing.Color.Navy;
-            this.txtSenha6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.txtSenha6.Location = new System.Drawing.Point(27, 243);
-            this.txtSenha6.Name = "txtSenha6";
-            this.txtSenha6.Size = new System.Drawing.Size(38, 13);
-            this.txtSenha6.TabIndex = 69;
-            this.txtSenha6.Text = "Senha";
+            this.lblSenhauncionarios.AutoSize = true;
+            this.lblSenhauncionarios.BackColor = System.Drawing.Color.Navy;
+            this.lblSenhauncionarios.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.lblSenhauncionarios.Location = new System.Drawing.Point(27, 243);
+            this.lblSenhauncionarios.Name = "lblSenhauncionarios";
+            this.lblSenhauncionarios.Size = new System.Drawing.Size(38, 13);
+            this.lblSenhauncionarios.TabIndex = 69;
+            this.lblSenhauncionarios.Text = "Senha";
             // 
-            // txtEmail6
+            // lblEmailFuncionarios
             // 
-            this.txtEmail6.AutoSize = true;
-            this.txtEmail6.ForeColor = System.Drawing.Color.Cyan;
-            this.txtEmail6.Location = new System.Drawing.Point(27, 182);
-            this.txtEmail6.Name = "txtEmail6";
-            this.txtEmail6.Size = new System.Drawing.Size(32, 13);
-            this.txtEmail6.TabIndex = 68;
-            this.txtEmail6.Text = "Email";
+            this.lblEmailFuncionarios.AutoSize = true;
+            this.lblEmailFuncionarios.ForeColor = System.Drawing.Color.Cyan;
+            this.lblEmailFuncionarios.Location = new System.Drawing.Point(27, 182);
+            this.lblEmailFuncionarios.Name = "lblEmailFuncionarios";
+            this.lblEmailFuncionarios.Size = new System.Drawing.Size(32, 13);
+            this.lblEmailFuncionarios.TabIndex = 68;
+            this.lblEmailFuncionarios.Text = "Email";
             // 
             // rdAdministrator
             // 
             this.rdAdministrator.AutoSize = true;
             this.rdAdministrator.ForeColor = System.Drawing.Color.White;
-            this.rdAdministrator.Location = new System.Drawing.Point(279, 17);
+            this.rdAdministrator.Location = new System.Drawing.Point(135, 12);
             this.rdAdministrator.Name = "rdAdministrator";
             this.rdAdministrator.Size = new System.Drawing.Size(85, 17);
             this.rdAdministrator.TabIndex = 72;
@@ -176,15 +178,15 @@
             this.btnNomeFuncionario.Size = new System.Drawing.Size(100, 20);
             this.btnNomeFuncionario.TabIndex = 75;
             // 
-            // label1
+            // lblNomeFuncionarios
             // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.Cyan;
-            this.label1.Location = new System.Drawing.Point(24, 89);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 74;
-            this.label1.Text = "Nome";
+            this.lblNomeFuncionarios.AutoSize = true;
+            this.lblNomeFuncionarios.ForeColor = System.Drawing.Color.Cyan;
+            this.lblNomeFuncionarios.Location = new System.Drawing.Point(24, 89);
+            this.lblNomeFuncionarios.Name = "lblNomeFuncionarios";
+            this.lblNomeFuncionarios.Size = new System.Drawing.Size(35, 13);
+            this.lblNomeFuncionarios.TabIndex = 74;
+            this.lblNomeFuncionarios.Text = "Nome";
             // 
             // rbGerente
             // 
@@ -205,15 +207,15 @@
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 77;
             // 
-            // label2
+            // lblCPFFuncionarios
             // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.Cyan;
-            this.label2.Location = new System.Drawing.Point(24, 132);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(27, 13);
-            this.label2.TabIndex = 78;
-            this.label2.Text = "CPF";
+            this.lblCPFFuncionarios.AutoSize = true;
+            this.lblCPFFuncionarios.ForeColor = System.Drawing.Color.Cyan;
+            this.lblCPFFuncionarios.Location = new System.Drawing.Point(24, 132);
+            this.lblCPFFuncionarios.Name = "lblCPFFuncionarios";
+            this.lblCPFFuncionarios.Size = new System.Drawing.Size(27, 13);
+            this.lblCPFFuncionarios.TabIndex = 78;
+            this.lblCPFFuncionarios.Text = "CPF";
             // 
             // btnSalvar8
             // 
@@ -226,6 +228,20 @@
             this.btnSalvar8.TabIndex = 79;
             this.btnSalvar8.Text = "Salvar";
             this.btnSalvar8.UseVisualStyleBackColor = false;
+            this.btnSalvar8.Click += new System.EventHandler(this.btnSalvar8_Click);
+            // 
+            // btnPesquisa1
+            // 
+            this.btnPesquisa1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnPesquisa1.FlatAppearance.BorderSize = 0;
+            this.btnPesquisa1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPesquisa1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnPesquisa1.Location = new System.Drawing.Point(227, 9);
+            this.btnPesquisa1.Name = "btnPesquisa1";
+            this.btnPesquisa1.Size = new System.Drawing.Size(137, 23);
+            this.btnPesquisa1.TabIndex = 80;
+            this.btnPesquisa1.Text = "Pesquisa";
+            this.btnPesquisa1.UseVisualStyleBackColor = false;
             // 
             // FormFuncionarios
             // 
@@ -233,18 +249,19 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Navy;
             this.ClientSize = new System.Drawing.Size(637, 409);
+            this.Controls.Add(this.btnPesquisa1);
             this.Controls.Add(this.btnSalvar8);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lblCPFFuncionarios);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.rbGerente);
             this.Controls.Add(this.btnNomeFuncionario);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblNomeFuncionarios);
             this.Controls.Add(this.rbFuncionario);
             this.Controls.Add(this.rdAdministrator);
             this.Controls.Add(this.btnSenha2);
             this.Controls.Add(this.btnEmail2);
-            this.Controls.Add(this.txtSenha6);
-            this.Controls.Add(this.txtEmail6);
+            this.Controls.Add(this.lblSenhauncionarios);
+            this.Controls.Add(this.lblEmailFuncionarios);
             this.Controls.Add(this.listBox8);
             this.Controls.Add(this.btnEditar8);
             this.Controls.Add(this.bntCadatro8);
@@ -267,15 +284,16 @@
         private System.Windows.Forms.ListBox listBox8;
         private System.Windows.Forms.TextBox btnSenha2;
         private System.Windows.Forms.TextBox btnEmail2;
-        private System.Windows.Forms.Label txtSenha6;
-        private System.Windows.Forms.Label txtEmail6;
+        private System.Windows.Forms.Label lblSenhauncionarios;
+        private System.Windows.Forms.Label lblEmailFuncionarios;
         private System.Windows.Forms.RadioButton rdAdministrator;
         private System.Windows.Forms.RadioButton rbFuncionario;
         private System.Windows.Forms.TextBox btnNomeFuncionario;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblNomeFuncionarios;
         private System.Windows.Forms.RadioButton rbGerente;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblCPFFuncionarios;
         private System.Windows.Forms.Button btnSalvar8;
+        private System.Windows.Forms.Button btnPesquisa1;
     }
 }

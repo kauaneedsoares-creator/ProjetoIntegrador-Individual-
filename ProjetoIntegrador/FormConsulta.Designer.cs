@@ -36,9 +36,9 @@
             this.txtData = new System.Windows.Forms.TextBox();
             this.bntPesquisar5 = new System.Windows.Forms.Button();
             this.cboAcao = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblDataConsulta = new System.Windows.Forms.Label();
+            this.lblPesquisarConsulta = new System.Windows.Forms.Label();
+            this.lblAcaoConsulta = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtUsuario
@@ -98,7 +98,7 @@
             this.txtData.BackColor = System.Drawing.Color.White;
             this.txtData.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtData.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtData.Location = new System.Drawing.Point(203, 80);
+            this.txtData.Location = new System.Drawing.Point(180, 81);
             this.txtData.Name = "txtData";
             this.txtData.Size = new System.Drawing.Size(100, 19);
             this.txtData.TabIndex = 4;
@@ -133,39 +133,40 @@
             this.cboAcao.Size = new System.Drawing.Size(121, 21);
             this.cboAcao.TabIndex = 28;
             // 
-            // label1
+            // lblDataConsulta
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.MidnightBlue;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.label1.Location = new System.Drawing.Point(200, 56);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 18);
-            this.label1.TabIndex = 29;
-            this.label1.Text = "Data inicial";
+            this.lblDataConsulta.AutoSize = true;
+            this.lblDataConsulta.BackColor = System.Drawing.Color.MidnightBlue;
+            this.lblDataConsulta.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDataConsulta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.lblDataConsulta.Location = new System.Drawing.Point(177, 57);
+            this.lblDataConsulta.Name = "lblDataConsulta";
+            this.lblDataConsulta.Size = new System.Drawing.Size(79, 18);
+            this.lblDataConsulta.TabIndex = 29;
+            this.lblDataConsulta.Text = "Data inicial";
             // 
-            // label2
+            // lblPesquisarConsulta
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.MidnightBlue;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.label2.Location = new System.Drawing.Point(15, 54);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(90, 20);
-            this.label2.TabIndex = 30;
-            this.label2.Text = "(ID, Nome,)";
+            this.lblPesquisarConsulta.AutoSize = true;
+            this.lblPesquisarConsulta.BackColor = System.Drawing.Color.MidnightBlue;
+            this.lblPesquisarConsulta.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPesquisarConsulta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.lblPesquisarConsulta.Location = new System.Drawing.Point(15, 54);
+            this.lblPesquisarConsulta.Name = "lblPesquisarConsulta";
+            this.lblPesquisarConsulta.Size = new System.Drawing.Size(110, 20);
+            this.lblPesquisarConsulta.TabIndex = 30;
+            this.lblPesquisarConsulta.Text = "Pesquisar por:";
             // 
-            // label3
+            // lblAcaoConsulta
             // 
-            this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.label3.Location = new System.Drawing.Point(356, 61);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(32, 13);
-            this.label3.TabIndex = 31;
-            this.label3.Text = "Ação";
+            this.lblAcaoConsulta.AutoSize = true;
+            this.lblAcaoConsulta.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAcaoConsulta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.lblAcaoConsulta.Location = new System.Drawing.Point(355, 58);
+            this.lblAcaoConsulta.Name = "lblAcaoConsulta";
+            this.lblAcaoConsulta.Size = new System.Drawing.Size(99, 18);
+            this.lblAcaoConsulta.TabIndex = 31;
+            this.lblAcaoConsulta.Text = "Tipo de Ação:";
             // 
             // FormConsulta
             // 
@@ -173,9 +174,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MidnightBlue;
             this.ClientSize = new System.Drawing.Size(638, 409);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblAcaoConsulta);
+            this.Controls.Add(this.lblPesquisarConsulta);
+            this.Controls.Add(this.lblDataConsulta);
             this.Controls.Add(this.cboAcao);
             this.Controls.Add(this.bntPesquisar5);
             this.Controls.Add(this.txtData);
@@ -186,6 +187,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormConsulta";
             this.Text = "Consulta";
+            this.Load += new System.EventHandler(this.FormConsulta_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -200,8 +202,8 @@
         private System.Windows.Forms.TextBox txtData;
         private System.Windows.Forms.Button bntPesquisar5;
         private System.Windows.Forms.ComboBox cboAcao;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblDataConsulta;
+        private System.Windows.Forms.Label lblPesquisarConsulta;
+        private System.Windows.Forms.Label lblAcaoConsulta;
     }
 }

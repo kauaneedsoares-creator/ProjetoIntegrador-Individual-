@@ -35,13 +35,13 @@
             this.bntCadastro3 = new System.Windows.Forms.Button();
             this.btnLimpar3 = new System.Windows.Forms.Button();
             this.btnDeletar3 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblIDMotoboyQRCODE = new System.Windows.Forms.Label();
+            this.lblNomeMotoboyQRCODE = new System.Windows.Forms.Label();
+            this.lblIDContatoMotoboyQRCODE3 = new System.Windows.Forms.Label();
             this.txtIDMotoboy1 = new System.Windows.Forms.TextBox();
             this.txtNomeMotoboy = new System.Windows.Forms.TextBox();
             this.txtContato = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lbllStatusRCODE = new System.Windows.Forms.Label();
             this.cboStatus = new System.Windows.Forms.ComboBox();
             this.btnSalvar3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -76,6 +76,7 @@
             this.bntEditar3.TabIndex = 49;
             this.bntEditar3.Text = "Editar";
             this.bntEditar3.UseVisualStyleBackColor = false;
+            this.bntEditar3.Click += new System.EventHandler(this.bntEditar3_Click);
             // 
             // bntCadastro3
             // 
@@ -113,36 +114,35 @@
             this.btnDeletar3.Text = "Deletar";
             this.btnDeletar3.UseVisualStyleBackColor = false;
             // 
-            // label1
+            // lblIDMotoboyQRCODE
             // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(27, 16);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 13);
-            this.label1.TabIndex = 32;
-            this.label1.Text = "ID_Motoboy";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.lblIDMotoboyQRCODE.AutoSize = true;
+            this.lblIDMotoboyQRCODE.ForeColor = System.Drawing.Color.White;
+            this.lblIDMotoboyQRCODE.Location = new System.Drawing.Point(27, 16);
+            this.lblIDMotoboyQRCODE.Name = "lblIDMotoboyQRCODE";
+            this.lblIDMotoboyQRCODE.Size = new System.Drawing.Size(65, 13);
+            this.lblIDMotoboyQRCODE.TabIndex = 32;
+            this.lblIDMotoboyQRCODE.Text = "ID_Motoboy";
             // 
-            // label2
+            // lblNomeMotoboyQRCODE
             // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(27, 93);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 13);
-            this.label2.TabIndex = 33;
-            this.label2.Text = "Nome_Motoboy";
+            this.lblNomeMotoboyQRCODE.AutoSize = true;
+            this.lblNomeMotoboyQRCODE.ForeColor = System.Drawing.Color.White;
+            this.lblNomeMotoboyQRCODE.Location = new System.Drawing.Point(27, 93);
+            this.lblNomeMotoboyQRCODE.Name = "lblNomeMotoboyQRCODE";
+            this.lblNomeMotoboyQRCODE.Size = new System.Drawing.Size(82, 13);
+            this.lblNomeMotoboyQRCODE.TabIndex = 33;
+            this.lblNomeMotoboyQRCODE.Text = "Nome_Motoboy";
             // 
-            // label3
+            // lblIDContatoMotoboyQRCODE3
             // 
-            this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(27, 178);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(108, 13);
-            this.label3.TabIndex = 34;
-            this.label3.Text = "ID_Contato_Motoboy";
+            this.lblIDContatoMotoboyQRCODE3.AutoSize = true;
+            this.lblIDContatoMotoboyQRCODE3.ForeColor = System.Drawing.Color.White;
+            this.lblIDContatoMotoboyQRCODE3.Location = new System.Drawing.Point(27, 178);
+            this.lblIDContatoMotoboyQRCODE3.Name = "lblIDContatoMotoboyQRCODE3";
+            this.lblIDContatoMotoboyQRCODE3.Size = new System.Drawing.Size(108, 13);
+            this.lblIDContatoMotoboyQRCODE3.TabIndex = 34;
+            this.lblIDContatoMotoboyQRCODE3.Text = "ID_Contato_Motoboy";
             // 
             // txtIDMotoboy1
             // 
@@ -165,15 +165,15 @@
             this.txtContato.Size = new System.Drawing.Size(100, 20);
             this.txtContato.TabIndex = 37;
             // 
-            // label4
+            // lbllStatusRCODE
             // 
-            this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(27, 263);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(37, 13);
-            this.label4.TabIndex = 38;
-            this.label4.Text = "Status";
+            this.lbllStatusRCODE.AutoSize = true;
+            this.lbllStatusRCODE.ForeColor = System.Drawing.Color.White;
+            this.lbllStatusRCODE.Location = new System.Drawing.Point(27, 263);
+            this.lbllStatusRCODE.Name = "lbllStatusRCODE";
+            this.lbllStatusRCODE.Size = new System.Drawing.Size(37, 13);
+            this.lbllStatusRCODE.TabIndex = 38;
+            this.lbllStatusRCODE.Text = "Status";
             // 
             // cboStatus
             // 
@@ -197,6 +197,7 @@
             this.btnSalvar3.TabIndex = 51;
             this.btnSalvar3.Text = "Salvar";
             this.btnSalvar3.UseVisualStyleBackColor = false;
+            this.btnSalvar3.Click += new System.EventHandler(this.btnSalvar3_Click);
             // 
             // FormQRCode
             // 
@@ -212,13 +213,13 @@
             this.Controls.Add(this.btnDeletar3);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.listBox3);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.lbllStatusRCODE);
             this.Controls.Add(this.txtContato);
             this.Controls.Add(this.txtNomeMotoboy);
             this.Controls.Add(this.txtIDMotoboy1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblIDContatoMotoboyQRCODE3);
+            this.Controls.Add(this.lblNomeMotoboyQRCODE);
+            this.Controls.Add(this.lblIDMotoboyQRCODE);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormQRCode";
             this.Text = "QR Code";
@@ -234,13 +235,13 @@
         private System.Windows.Forms.Button bntCadastro3;
         private System.Windows.Forms.Button btnLimpar3;
         private System.Windows.Forms.Button btnDeletar3;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblIDMotoboyQRCODE;
+        private System.Windows.Forms.Label lblNomeMotoboyQRCODE;
+        private System.Windows.Forms.Label lblIDContatoMotoboyQRCODE3;
         private System.Windows.Forms.TextBox txtIDMotoboy1;
         private System.Windows.Forms.TextBox txtNomeMotoboy;
         private System.Windows.Forms.TextBox txtContato;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lbllStatusRCODE;
         private System.Windows.Forms.ComboBox cboStatus;
         private System.Windows.Forms.Button btnSalvar3;
     }

@@ -36,6 +36,9 @@ namespace ProjetoIntegrador
 
 
         }
+        /// <summary>
+        /// Abre um formulário dentro do painel 
+        /// </summary>
         public void AbrirFormNoPanel(Form form)
         {
             form.TopLevel = false;
@@ -51,7 +54,10 @@ namespace ProjetoIntegrador
         private void btnSair_Click(object sender, EventArgs e)
         {
             // Close();
-            Application.Exit();//vai garantia que fecha tudos
+            //Application.Exit();vai garantia que fecha tudos
+            FormSenha formsenha = new FormSenha();
+            formsenha.Show();
+            this.Hide();
 
         }
 

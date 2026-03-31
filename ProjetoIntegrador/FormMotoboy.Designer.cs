@@ -30,16 +30,16 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMotoboy));
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            this.lblNomeMotoboy = new System.Windows.Forms.Label();
+            this.lblCPFMotoboy = new System.Windows.Forms.Label();
+            this.lblDataNasMotoboy = new System.Windows.Forms.Label();
+            this.lblTelefoneMotoboy = new System.Windows.Forms.Label();
+            this.lblSanguineosMotoboy = new System.Windows.Forms.Label();
+            this.lblAlergiaMotoboy = new System.Windows.Forms.Label();
+            this.lblEnderecoMotoboy = new System.Windows.Forms.Label();
+            this.lblCondicaoMedicasMotoboy = new System.Windows.Forms.Label();
+            this.lblEmailMotoboy = new System.Windows.Forms.Label();
+            this.lblSenhaMotoboy = new System.Windows.Forms.Label();
             this.txtNome1 = new System.Windows.Forms.TextBox();
             this.txtCondicaoMedica = new System.Windows.Forms.TextBox();
             this.txtEndereco = new System.Windows.Forms.TextBox();
@@ -56,7 +56,7 @@
             this.btnPesquisa1 = new System.Windows.Forms.Button();
             this.cboTiposanguineos = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
+            this.lbllIDEmpresaMotoboy = new System.Windows.Forms.Label();
             this.btnSalvar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -70,106 +70,106 @@
             this.listBox1.Size = new System.Drawing.Size(179, 327);
             this.listBox1.TabIndex = 0;
             // 
-            // label1
+            // lblNomeMotoboy
             // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(12, 12);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Nome";
+            this.lblNomeMotoboy.AutoSize = true;
+            this.lblNomeMotoboy.ForeColor = System.Drawing.Color.White;
+            this.lblNomeMotoboy.Location = new System.Drawing.Point(12, 12);
+            this.lblNomeMotoboy.Name = "lblNomeMotoboy";
+            this.lblNomeMotoboy.Size = new System.Drawing.Size(35, 13);
+            this.lblNomeMotoboy.TabIndex = 1;
+            this.lblNomeMotoboy.Text = "Nome";
             // 
-            // label2
+            // lblCPFMotoboy
             // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(13, 57);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(27, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "CPF";
+            this.lblCPFMotoboy.AutoSize = true;
+            this.lblCPFMotoboy.ForeColor = System.Drawing.Color.White;
+            this.lblCPFMotoboy.Location = new System.Drawing.Point(13, 57);
+            this.lblCPFMotoboy.Name = "lblCPFMotoboy";
+            this.lblCPFMotoboy.Size = new System.Drawing.Size(27, 13);
+            this.lblCPFMotoboy.TabIndex = 2;
+            this.lblCPFMotoboy.Text = "CPF";
             // 
-            // label3
+            // lblDataNasMotoboy
             // 
-            this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(13, 113);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(89, 13);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Data Nascimento";
+            this.lblDataNasMotoboy.AutoSize = true;
+            this.lblDataNasMotoboy.ForeColor = System.Drawing.Color.White;
+            this.lblDataNasMotoboy.Location = new System.Drawing.Point(13, 113);
+            this.lblDataNasMotoboy.Name = "lblDataNasMotoboy";
+            this.lblDataNasMotoboy.Size = new System.Drawing.Size(89, 13);
+            this.lblDataNasMotoboy.TabIndex = 3;
+            this.lblDataNasMotoboy.Text = "Data Nascimento";
             // 
-            // label4
+            // lblTelefoneMotoboy
             // 
-            this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(17, 174);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(49, 13);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Telefone";
+            this.lblTelefoneMotoboy.AutoSize = true;
+            this.lblTelefoneMotoboy.ForeColor = System.Drawing.Color.White;
+            this.lblTelefoneMotoboy.Location = new System.Drawing.Point(17, 174);
+            this.lblTelefoneMotoboy.Name = "lblTelefoneMotoboy";
+            this.lblTelefoneMotoboy.Size = new System.Drawing.Size(49, 13);
+            this.lblTelefoneMotoboy.TabIndex = 4;
+            this.lblTelefoneMotoboy.Text = "Telefone";
             // 
-            // label5
+            // lblSanguineosMotoboy
             // 
-            this.label5.AutoSize = true;
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(199, 56);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(87, 13);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "Tipo sanguíneos";
+            this.lblSanguineosMotoboy.AutoSize = true;
+            this.lblSanguineosMotoboy.ForeColor = System.Drawing.Color.White;
+            this.lblSanguineosMotoboy.Location = new System.Drawing.Point(199, 56);
+            this.lblSanguineosMotoboy.Name = "lblSanguineosMotoboy";
+            this.lblSanguineosMotoboy.Size = new System.Drawing.Size(87, 13);
+            this.lblSanguineosMotoboy.TabIndex = 5;
+            this.lblSanguineosMotoboy.Text = "Tipo sanguíneos";
             // 
-            // label6
+            // lblAlergiaMotoboy
             // 
-            this.label6.AutoSize = true;
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(199, 164);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(39, 13);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "Alergia";
+            this.lblAlergiaMotoboy.AutoSize = true;
+            this.lblAlergiaMotoboy.ForeColor = System.Drawing.Color.White;
+            this.lblAlergiaMotoboy.Location = new System.Drawing.Point(199, 164);
+            this.lblAlergiaMotoboy.Name = "lblAlergiaMotoboy";
+            this.lblAlergiaMotoboy.Size = new System.Drawing.Size(39, 13);
+            this.lblAlergiaMotoboy.TabIndex = 6;
+            this.lblAlergiaMotoboy.Text = "Alergia";
             // 
-            // label7
+            // lblEnderecoMotoboy
             // 
-            this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(13, 286);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(53, 13);
-            this.label7.TabIndex = 7;
-            this.label7.Text = "Endereço";
+            this.lblEnderecoMotoboy.AutoSize = true;
+            this.lblEnderecoMotoboy.ForeColor = System.Drawing.Color.White;
+            this.lblEnderecoMotoboy.Location = new System.Drawing.Point(13, 286);
+            this.lblEnderecoMotoboy.Name = "lblEnderecoMotoboy";
+            this.lblEnderecoMotoboy.Size = new System.Drawing.Size(53, 13);
+            this.lblEnderecoMotoboy.TabIndex = 7;
+            this.lblEnderecoMotoboy.Text = "Endereço";
             // 
-            // label8
+            // lblCondicaoMedicasMotoboy
             // 
-            this.label8.AutoSize = true;
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(199, 106);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(90, 13);
-            this.label8.TabIndex = 8;
-            this.label8.Text = "Condição Medica";
+            this.lblCondicaoMedicasMotoboy.AutoSize = true;
+            this.lblCondicaoMedicasMotoboy.ForeColor = System.Drawing.Color.White;
+            this.lblCondicaoMedicasMotoboy.Location = new System.Drawing.Point(199, 106);
+            this.lblCondicaoMedicasMotoboy.Name = "lblCondicaoMedicasMotoboy";
+            this.lblCondicaoMedicasMotoboy.Size = new System.Drawing.Size(90, 13);
+            this.lblCondicaoMedicasMotoboy.TabIndex = 8;
+            this.lblCondicaoMedicasMotoboy.Text = "Condição Medica";
             // 
-            // label9
+            // lblEmailMotoboy
             // 
-            this.label9.AutoSize = true;
-            this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(17, 229);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(32, 13);
-            this.label9.TabIndex = 9;
-            this.label9.Text = "Email";
+            this.lblEmailMotoboy.AutoSize = true;
+            this.lblEmailMotoboy.ForeColor = System.Drawing.Color.White;
+            this.lblEmailMotoboy.Location = new System.Drawing.Point(17, 229);
+            this.lblEmailMotoboy.Name = "lblEmailMotoboy";
+            this.lblEmailMotoboy.Size = new System.Drawing.Size(32, 13);
+            this.lblEmailMotoboy.TabIndex = 9;
+            this.lblEmailMotoboy.Text = "Email";
             // 
-            // label10
+            // lblSenhaMotoboy
             // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Navy;
-            this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(140, 229);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(38, 13);
-            this.label10.TabIndex = 10;
-            this.label10.Text = "Senha";
+            this.lblSenhaMotoboy.AutoSize = true;
+            this.lblSenhaMotoboy.BackColor = System.Drawing.Color.Navy;
+            this.lblSenhaMotoboy.ForeColor = System.Drawing.Color.White;
+            this.lblSenhaMotoboy.Location = new System.Drawing.Point(140, 229);
+            this.lblSenhaMotoboy.Name = "lblSenhaMotoboy";
+            this.lblSenhaMotoboy.Size = new System.Drawing.Size(38, 13);
+            this.lblSenhaMotoboy.TabIndex = 10;
+            this.lblSenhaMotoboy.Text = "Senha";
             // 
             // txtNome1
             // 
@@ -259,6 +259,7 @@
             this.btnEditar1.TabIndex = 23;
             this.btnEditar1.Text = "Editar";
             this.btnEditar1.UseVisualStyleBackColor = false;
+            this.btnEditar1.Click += new System.EventHandler(this.btnEditar1_Click);
             // 
             // btnDeletar1
             // 
@@ -321,15 +322,15 @@
             this.textBox1.Size = new System.Drawing.Size(40, 20);
             this.textBox1.TabIndex = 28;
             // 
-            // label11
+            // lbllIDEmpresaMotoboy
             // 
-            this.label11.AutoSize = true;
-            this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(355, 7);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(65, 13);
-            this.label11.TabIndex = 29;
-            this.label11.Text = "ID_Empresa";
+            this.lbllIDEmpresaMotoboy.AutoSize = true;
+            this.lbllIDEmpresaMotoboy.ForeColor = System.Drawing.Color.White;
+            this.lbllIDEmpresaMotoboy.Location = new System.Drawing.Point(355, 7);
+            this.lbllIDEmpresaMotoboy.Name = "lbllIDEmpresaMotoboy";
+            this.lbllIDEmpresaMotoboy.Size = new System.Drawing.Size(65, 13);
+            this.lbllIDEmpresaMotoboy.TabIndex = 29;
+            this.lbllIDEmpresaMotoboy.Text = "ID_Empresa";
             // 
             // btnSalvar
             // 
@@ -342,6 +343,7 @@
             this.btnSalvar.TabIndex = 30;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = false;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // FormMotoboy
             // 
@@ -350,7 +352,7 @@
             this.BackColor = System.Drawing.Color.Navy;
             this.ClientSize = new System.Drawing.Size(638, 437);
             this.Controls.Add(this.btnSalvar);
-            this.Controls.Add(this.label11);
+            this.Controls.Add(this.lbllIDEmpresaMotoboy);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.cboTiposanguineos);
             this.Controls.Add(this.btnPesquisa1);
@@ -367,20 +369,20 @@
             this.Controls.Add(this.txtEndereco);
             this.Controls.Add(this.txtCondicaoMedica);
             this.Controls.Add(this.txtNome1);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblSenhaMotoboy);
+            this.Controls.Add(this.lblEmailMotoboy);
+            this.Controls.Add(this.lblCondicaoMedicasMotoboy);
+            this.Controls.Add(this.lblEnderecoMotoboy);
+            this.Controls.Add(this.lblAlergiaMotoboy);
+            this.Controls.Add(this.lblSanguineosMotoboy);
+            this.Controls.Add(this.lblTelefoneMotoboy);
+            this.Controls.Add(this.lblDataNasMotoboy);
+            this.Controls.Add(this.lblCPFMotoboy);
+            this.Controls.Add(this.lblNomeMotoboy);
             this.Controls.Add(this.listBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormMotoboy";
-            this.Text = "FormMotoboy";
+            this.Text = "Motoboy";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -389,16 +391,16 @@
         #endregion
 
         private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label lblNomeMotoboy;
+        private System.Windows.Forms.Label lblCPFMotoboy;
+        private System.Windows.Forms.Label lblDataNasMotoboy;
+        private System.Windows.Forms.Label lblTelefoneMotoboy;
+        private System.Windows.Forms.Label lblSanguineosMotoboy;
+        private System.Windows.Forms.Label lblAlergiaMotoboy;
+        private System.Windows.Forms.Label lblEnderecoMotoboy;
+        private System.Windows.Forms.Label lblCondicaoMedicasMotoboy;
+        private System.Windows.Forms.Label lblEmailMotoboy;
+        private System.Windows.Forms.Label lblSenhaMotoboy;
         private System.Windows.Forms.TextBox txtNome1;
         private System.Windows.Forms.TextBox txtCondicaoMedica;
         private System.Windows.Forms.TextBox txtEndereco;
@@ -415,7 +417,7 @@
         private System.Windows.Forms.Button btnPesquisa1;
         private System.Windows.Forms.ComboBox cboTiposanguineos;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label lbllIDEmpresaMotoboy;
         private System.Windows.Forms.Button btnSalvar;
     }
 }

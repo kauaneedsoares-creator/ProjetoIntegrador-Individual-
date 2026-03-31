@@ -40,11 +40,11 @@
             this.txtCNPJ = new System.Windows.Forms.TextBox();
             this.txtEndereco = new System.Windows.Forms.TextBox();
             this.txtNome4 = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblEmailEmpresa = new System.Windows.Forms.Label();
+            this.lblEnderecoEmpresa = new System.Windows.Forms.Label();
+            this.lblTelefoneEmpresa = new System.Windows.Forms.Label();
+            this.lblCNPJEmpresa = new System.Windows.Forms.Label();
+            this.lblNomeEmpresa = new System.Windows.Forms.Label();
             this.btnSalvar4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -61,6 +61,7 @@
             this.btnEditar4.TabIndex = 62;
             this.btnEditar4.Text = "Editar";
             this.btnEditar4.UseVisualStyleBackColor = false;
+            this.btnEditar4.Click += new System.EventHandler(this.btnEditar4_Click);
             // 
             // bntCadatro4
             // 
@@ -158,55 +159,55 @@
             this.txtNome4.Size = new System.Drawing.Size(100, 20);
             this.txtNome4.TabIndex = 49;
             // 
-            // label9
+            // lblEmailEmpresa
             // 
-            this.label9.AutoSize = true;
-            this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(12, 232);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(32, 13);
-            this.label9.TabIndex = 47;
-            this.label9.Text = "Email";
+            this.lblEmailEmpresa.AutoSize = true;
+            this.lblEmailEmpresa.ForeColor = System.Drawing.Color.White;
+            this.lblEmailEmpresa.Location = new System.Drawing.Point(12, 232);
+            this.lblEmailEmpresa.Name = "lblEmailEmpresa";
+            this.lblEmailEmpresa.Size = new System.Drawing.Size(32, 13);
+            this.lblEmailEmpresa.TabIndex = 47;
+            this.lblEmailEmpresa.Text = "Email";
             // 
-            // label7
+            // lblEnderecoEmpresa
             // 
-            this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(9, 288);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(53, 13);
-            this.label7.TabIndex = 46;
-            this.label7.Text = "Endereço";
+            this.lblEnderecoEmpresa.AutoSize = true;
+            this.lblEnderecoEmpresa.ForeColor = System.Drawing.Color.White;
+            this.lblEnderecoEmpresa.Location = new System.Drawing.Point(9, 288);
+            this.lblEnderecoEmpresa.Name = "lblEnderecoEmpresa";
+            this.lblEnderecoEmpresa.Size = new System.Drawing.Size(53, 13);
+            this.lblEnderecoEmpresa.TabIndex = 46;
+            this.lblEnderecoEmpresa.Text = "Endereço";
             // 
-            // label4
+            // lblTelefoneEmpresa
             // 
-            this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(9, 173);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(49, 13);
-            this.label4.TabIndex = 45;
-            this.label4.Text = "Telefone";
+            this.lblTelefoneEmpresa.AutoSize = true;
+            this.lblTelefoneEmpresa.ForeColor = System.Drawing.Color.White;
+            this.lblTelefoneEmpresa.Location = new System.Drawing.Point(9, 173);
+            this.lblTelefoneEmpresa.Name = "lblTelefoneEmpresa";
+            this.lblTelefoneEmpresa.Size = new System.Drawing.Size(49, 13);
+            this.lblTelefoneEmpresa.TabIndex = 45;
+            this.lblTelefoneEmpresa.Text = "Telefone";
             // 
-            // label2
+            // lblCNPJEmpresa
             // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(12, 107);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(34, 13);
-            this.label2.TabIndex = 43;
-            this.label2.Text = "CNPJ";
+            this.lblCNPJEmpresa.AutoSize = true;
+            this.lblCNPJEmpresa.ForeColor = System.Drawing.Color.White;
+            this.lblCNPJEmpresa.Location = new System.Drawing.Point(12, 107);
+            this.lblCNPJEmpresa.Name = "lblCNPJEmpresa";
+            this.lblCNPJEmpresa.Size = new System.Drawing.Size(34, 13);
+            this.lblCNPJEmpresa.TabIndex = 43;
+            this.lblCNPJEmpresa.Text = "CNPJ";
             // 
-            // label1
+            // lblNomeEmpresa
             // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(12, 54);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 42;
-            this.label1.Text = "Nome";
+            this.lblNomeEmpresa.AutoSize = true;
+            this.lblNomeEmpresa.ForeColor = System.Drawing.Color.White;
+            this.lblNomeEmpresa.Location = new System.Drawing.Point(12, 54);
+            this.lblNomeEmpresa.Name = "lblNomeEmpresa";
+            this.lblNomeEmpresa.Size = new System.Drawing.Size(35, 13);
+            this.lblNomeEmpresa.TabIndex = 42;
+            this.lblNomeEmpresa.Text = "Nome";
             // 
             // btnSalvar4
             // 
@@ -219,6 +220,7 @@
             this.btnSalvar4.TabIndex = 63;
             this.btnSalvar4.Text = "Salvar";
             this.btnSalvar4.UseVisualStyleBackColor = false;
+            this.btnSalvar4.Click += new System.EventHandler(this.btnSalvar4_Click);
             // 
             // FormEmpresa
             // 
@@ -238,11 +240,11 @@
             this.Controls.Add(this.txtCNPJ);
             this.Controls.Add(this.txtEndereco);
             this.Controls.Add(this.txtNome4);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblEmailEmpresa);
+            this.Controls.Add(this.lblEnderecoEmpresa);
+            this.Controls.Add(this.lblTelefoneEmpresa);
+            this.Controls.Add(this.lblCNPJEmpresa);
+            this.Controls.Add(this.lblNomeEmpresa);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormEmpresa";
             this.Text = "Empresa";
@@ -264,11 +266,11 @@
         private System.Windows.Forms.TextBox txtCNPJ;
         private System.Windows.Forms.TextBox txtEndereco;
         private System.Windows.Forms.TextBox txtNome4;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblEmailEmpresa;
+        private System.Windows.Forms.Label lblEnderecoEmpresa;
+        private System.Windows.Forms.Label lblTelefoneEmpresa;
+        private System.Windows.Forms.Label lblCNPJEmpresa;
+        private System.Windows.Forms.Label lblNomeEmpresa;
         private System.Windows.Forms.Button btnSalvar4;
     }
 }

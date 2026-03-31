@@ -17,7 +17,9 @@ namespace ProjetoIntegrador
             InitializeComponent();
         }
 
-       
-     
+        private void FormConsulta_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
